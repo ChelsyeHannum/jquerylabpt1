@@ -1,0 +1,99 @@
+body {
+    background-color: #e1d7d4;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    color: #e34e45;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+h4 {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: #e34e45;
+    font-size: 20px
+}
+
+p {
+    margin-left: 20px;
+}
+
+input {
+    display: flex;
+    position: column;
+    border: none;
+    border-bottom: solid gray 1px;
+    height: 50px;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: #EEE;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    background-color: #EEE;
+    height: 400px;
+    width: 400px;
+    display: none;
+    box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    border: none;
+    height: 35px;
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: #008000;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+.reserved {
+    cursor: not-allowed;
+    background-color: #ADAAAA;
+}
+
+.table.available.hover {
+    background-color: rgb(218, 216, 216);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 350px;
+    background-color: #EEE;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.table {
+    justify-content: space-between;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #CCC;
+    text-align: center;
+}
+
+.material-icons {
+    padding-left: 90%;
+    padding-top: 10px;
+    padding-right: 15px;
+}
