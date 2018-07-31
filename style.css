@@ -41,6 +41,9 @@ input {
     background-color: #EEE;
 }
 
+
+/*Targets the entire reservation form*/
+
 form {
     display: flex;
     margin: 0 auto;
@@ -70,6 +73,9 @@ form {
     background-color: #ADAAAA;
 }
 
+
+/*targets the mouseenter/mouseleave object*/
+
 .table.available.hover {
     background-color: rgb(218, 216, 216);
     cursor: pointer;
@@ -86,6 +92,9 @@ form {
     padding: 10px;
 }
 
+
+/*targets the "tables"*/
+
 .table {
     justify-content: center;
     align-items: center;
@@ -96,6 +105,9 @@ form {
     border-radius: 50px 50px 50px 50px;
     background-color: #CCC;
 }
+
+
+/*X button*/
 
 .material-icons {
     padding-left: 90%;
